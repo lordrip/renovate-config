@@ -9,7 +9,7 @@
   ],
   "packageRules": [
     {
-      "groupName": "react monorepo",
+      "groupName": "React typings",
       "matchPackageNames": [
         "@types/react",
         "@types/react-dom"
@@ -20,34 +20,15 @@
       "matchPackagePatterns": ["eslint"]
     },
     {
-      "groupName": "@kie-tools",
-      "matchPackagePatterns": ["@kie-tools"]
-    },
-    {
-      "groupName": "@kie-tools",
-      "matchPackagePatterns": ["@opentelemetry"]
-    },
-    {
-      "extends": "monorepo:storybook",
-      "groupName": "storybook monorepo",
-      "matchUpdateTypes": [
-        "digest",
-        "patch",
-        "minor",
-        "major"
+      "groupName": "@lerna-lite monorepo",
+      "matchPackageNames": [
+        "@lerna-lite/*"
       ]
     },
     {
-      "groupName": "NestJS monorepo",
+      "groupName": "@patternfly",
       "matchPackageNames": [
-        "@nestjs/*"
-      ]
-    },
-    {
-      "groupName": "oclif monorepo",
-      "matchPackageNames": [
-        "@oclif/*",
-        "oclif"
+        "@patternfly/*"
       ]
     }
   ]
