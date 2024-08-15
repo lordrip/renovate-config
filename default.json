@@ -4,9 +4,18 @@
     "config:base",
     ":dependencyDashboard"
   ],
+  {
+    "timezone": "Europe/Madrid Africa/Ceuta"
+  },
   "schedule": [
-    "before 6am"
+    "on the first day of the month"
   ],
+  {
+    "labels": [
+      "renovate",
+      "dependencies"
+    ]
+  },
   "packageRules": [
     {
       "groupName": "React typings",
@@ -17,18 +26,18 @@
     },
     {
       "groupName": "eslint",
-      "matchPackagePatterns": ["eslint"]
+      "matchPackageNames": ["/eslint/"]
     },
     {
       "groupName": "@lerna-lite monorepo",
       "matchPackageNames": [
-        "@lerna-lite/*"
+        "/@lerna-lite/"
       ]
     },
     {
       "groupName": "@patternfly",
       "matchPackageNames": [
-        "@patternfly/*"
+        "/@patternfly/"
       ]
     }
   ]
