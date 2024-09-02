@@ -4,18 +4,14 @@
     "config:base",
     ":dependencyDashboard"
   ],
-  {
-    "timezone": "Europe/Madrid Africa/Ceuta"
-  },
+  "timezone": "Europe/Madrid Africa/Ceuta",
   "schedule": [
     "on the first day of the month"
   ],
-  {
-    "labels": [
-      "renovate",
-      "dependencies"
-    ]
-  },
+  "labels": [
+    "renovate",
+    "dependencies"
+  ],
   "packageRules": [
     {
       "groupName": "React typings",
