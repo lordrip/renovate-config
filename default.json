@@ -4,7 +4,7 @@
     "config:base",
     ":dependencyDashboard"
   ],
-  "timezone": "Europe/Madrid Africa/Ceuta",
+  "timezone": "Europe/Madrid",
   "schedule": [
     "on the first day of the month"
   ],
